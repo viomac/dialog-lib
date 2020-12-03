@@ -28,5 +28,8 @@ export class AppComponent {
     this.dialogRef = this.dialog.open(GreetingComponent, {
       data: { message: 'Say hi and smile!' }
     });
+    this.dialogRef.afterClosed$.subscribe(result => {
+      console.log('Dialog closed', result);
+    });
   }
 }
