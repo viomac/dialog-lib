@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {DialogLibService} from '../../../dialog-lib/src/lib/dialog-lib.service';
+import {GreetingComponent} from './forms/greeting/greeting.component';
+import {DialogRef} from '../../../dialog-lib/src/lib/dialog-ref';
 
 @Component({
   selector: 'app-root',
@@ -18,11 +20,12 @@ import {DialogLibService} from '../../../dialog-lib/src/lib/dialog-lib.service';
 })
 export class AppComponent {
   title = 'dialog-demo';
+  dialogRef: DialogRef;
 
   constructor(public  dialog: DialogLibService) {}
 
   openDialog(): void {
-    this.dialogRef = this.dialog.open(DialogExampleComponent, {
+    this.dialogRef = this.dialog.open(GreetingComponent, {
       data: { message: 'Say hi and smile!' }
     });
   }
