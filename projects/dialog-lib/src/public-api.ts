@@ -4,4 +4,6 @@
 
 export * from './lib/dialog-lib.service';
 export * from './lib/dialog-lib.component';
+export * from './lib/dialog-lib.config';
+export * from './lib/dialog-ref';
 export * from './lib/dialog-lib.module';
