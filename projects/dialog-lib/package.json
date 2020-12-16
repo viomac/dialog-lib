@@ -1,6 +1,11 @@
 {
   "name": "dialog-lib",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "Library base on https://malcoded.com/posts/angular-dynamic-components/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viomac/dialog-lib"
+  },
   "peerDependencies": {
     "@angular/common": "^10.1.6",
     "@angular/core": "^10.1.6"
