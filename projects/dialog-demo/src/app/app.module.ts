@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DialogLibModule } from '../../../dialog-lib/src/lib/dialog-lib.module';
+import { ReactiveFormsModule } from '@angular/forms';
 import { GreetingComponent } from './forms/greeting/greeting.component';
-import {ReactiveFormsModule} from '@angular/forms';
+import { DialogLibModule } from 'dialog-lib';
+// import { DialogLibModule } from '../../../dialog-lib/src/lib/dialog-lib.module';
 
 @NgModule({
   declarations: [

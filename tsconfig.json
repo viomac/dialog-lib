@@ -17,8 +17,7 @@
     ],
     "paths": {
       "dialog-lib": [
-        "dist/dialog-lib/dialog-lib",
-        "dist/dialog-lib"
+        "projects/dialog-lib/src/public-api.ts"
       ]
     }
   }

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
-import {DialogLibConfig} from '../../../../../dialog-lib/src/lib/dialog-lib.config';
-import {DialogRef} from '../../../../../dialog-lib/src/lib/dialog-ref';
+import { DialogLibConfig, DialogRef } from 'dialog-lib';
+// import {DialogLibConfig} from '../../../../../dialog-lib/src/lib/dialog-lib.config';
+// import {DialogRef} from '../../../../../dialog-lib/src/lib/dialog-ref';
 
 @Component({
   selector: 'app-greeting',

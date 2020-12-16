@@ -1,0 +1,10 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "dialog-lib": [
+        "projects/dialog-lib/src/public.api.ts"
+      ]
+    }
+  }
+}
